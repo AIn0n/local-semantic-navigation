@@ -1,0 +1,16 @@
+[project]
+name = "local-semantic-navigation"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Szymon Górka", email = "55995692+AIn0n@users.noreply.github.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+local-semantic-navigation = "local_semantic_navigation:main"
+
+[build-system]
+requires = ["uv_build>=0.10.0,<0.11.0"]
+build-backend = "uv_build"
